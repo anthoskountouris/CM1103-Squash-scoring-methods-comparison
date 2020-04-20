@@ -1,0 +1,11 @@
+Python 3.7.4 (default, Aug 13 2019, 15:17:50) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from squash import *
+>>> random.seed(57)
+>>> game(70,30)
+(11, 5)
+>>> winProbability(70,30,100000)
+0.98
+>>> file("test.csv")
+[('60', '20'), ('100', '55'), ('50', '40'), ('20', '70'), ('95', '85')]
